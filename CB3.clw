@@ -11,6 +11,8 @@
 ! The callback functions are fixed, but as the Class references are threaded the actual callbacks
 ! into the classes are isolated between threads.  This way each thread can have up to 3 instances
 ! of the class with callback registered.  
+! 
+! The callbacks can come from any external library with a given parameter set.
 !
 ! Challenge: What are the options to make this dynamic to avoid a fixed set of callback funtions?
 !--------------------------------------------------------------------------------------------------
