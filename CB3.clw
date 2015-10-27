@@ -39,7 +39,7 @@ CBClass2  CBClassType
 CBClass3  CBClassType
 CBClass4  CBClassType
 
-CBCref1   &CBClassType, THREAD ! Instance ref #1  (thread har no purpose as the callbacks are shared across all threads using the class!
+CBCref1   &CBClassType, THREAD ! Instance ref #1  
 CBCref2   &CBClassType, THREAD ! Instance ref #2
 CBCref3   &CBClassType, THREAD ! Instance ref #3
 InstCount BYTE(0),      THREAD ! Instance Count
